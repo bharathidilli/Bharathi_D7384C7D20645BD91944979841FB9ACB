@@ -1,0 +1,31 @@
+''''Imoplement a function called sort_students that takes alist of student objects as input and sort the list bassed on the CGPA (Cumulative Grade Point Average ) in descending order. each student object has the following aritubites name (string).roll_number(string). and cgpa(float). Test the following with different input lists of students.'''' 
+class student
+   def_ int_( self,name,roll_number,cpga)
+      self.name=name
+      self.roll_number=roll_number
+      self.cgpa=cgpa 
+
+
+   def sort_student(student_list)
+      #sort the list of students in descending of a CGPA
+      sorted_students=sorted (student_list.
+                                           key=lambda student studentcgpa.
+                                           reverse=True)
+      #syntax-lambda argexp
+      return sorted_students
+
+
+  # example usage 
+ students [
+        student("shakira","A123,"7.8").
+        student("saras","A124","8.9").
+        student("Shalini","A125","9.1").
+        student("Yamini","A126,","9.9").
+]
+
+ sorted_students= sort_students(student)
+    # print the sorted list of students 
+    for student in sorted_students
+      print("Name[].Roll Number []. CGPA". format(studentname.
+                                                                             student roll_number.
+                                                                studentcgpa))
